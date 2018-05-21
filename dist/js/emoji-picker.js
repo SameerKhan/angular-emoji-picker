@@ -5,6 +5,7 @@ angular.module("templates/emoji-button-bootstrap.html", []).run(["$templateCache
     "<i class=\"emoji-picker emoji-smile\"\n" +
     "   uib-popover-template=\"'templates/emoji-popover-bootstrap.html'\"\n" +
     "   popover-placement=\"{{ !placement && 'left' || placement }}\"\n" +
+    "   popover-trigger=\"outsideClick\"\n" +
     "   popover-title=\"{{ title }}\"></i>\n" +
     "");
 }]);
